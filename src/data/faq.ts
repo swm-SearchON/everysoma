@@ -27,6 +27,6 @@ export const siteFaq: FaqItem[] = [
   {
     question: "Does Every Soma provide video lessons?",
     answer:
-      "Not at the moment. Every Soma is currently an educational catalog and demonstration site: it documents course curricula, learning outcomes, and learning guides, but it is not a live video learning platform. The course outlines and guides are published so you can see exactly what each curriculum covers.",
+      "Not at the moment. Every Soma currently publishes complete course curricula, learning outcomes, and learning guides rather than hosted video lessons. Each course page lists its full module-by-module outline so you can see exactly what the curriculum covers.",
   },
 ];

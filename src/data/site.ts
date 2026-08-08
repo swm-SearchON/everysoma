@@ -8,9 +8,6 @@ export const SITE_TAGLINE =
 export const SITE_DESCRIPTION =
   "Every Soma offers structured, project-focused online courses in Python, SQL, data analytics, React, and modern web development.";
 
-export const DEMO_NOTICE =
-  "Every Soma is a demonstration educational catalog created for testing purposes.";
-
 export interface LearningPath {
   slug: string;
   name: string;

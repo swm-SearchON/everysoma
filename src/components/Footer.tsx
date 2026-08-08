@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { courses } from "@/data/courses";
 import { guides } from "@/data/guides";
-import { DEMO_NOTICE, SITE_TAGLINE } from "@/data/site";
+import { SITE_TAGLINE } from "@/data/site";
 
 export default function Footer() {
   return (
@@ -54,9 +54,8 @@ export default function Footer() {
           </nav>
         </div>
         <div className="mt-10 border-t border-slate-200 pt-6">
-          <p className="text-xs text-slate-500">{DEMO_NOTICE}</p>
-          <p className="mt-1 text-xs text-slate-400">
-            © {new Date().getFullYear()} Every Soma. All course information is published for demonstration purposes.
+          <p className="text-xs text-slate-400">
+            © {new Date().getFullYear()} Every Soma. All rights reserved.
           </p>
         </div>
       </div>

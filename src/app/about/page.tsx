@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import CtaSection from "@/components/CtaSection";
-import { DEMO_NOTICE } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -37,10 +36,6 @@ export default function AboutPage() {
           guides that answer the questions beginners actually ask: how to learn
           Python from zero, whether to learn Python or SQL first, and what the
           full path to becoming a data analyst looks like.
-        </p>
-        <p className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-500">
-          {DEMO_NOTICE} It documents course curricula and learning guides but is
-          not a live video learning platform.
         </p>
       </div>
 
